@@ -1,0 +1,59 @@
+﻿
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    /*margin: 10px;*/
+}
+
+    .fileUpload input.upload {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+.overlay {
+    position: fixed;
+    z-index: 98;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #aaa;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+
+.overlayContent {
+    text-align: center;
+    z-index: 99;
+    margin: 250px auto;
+    width: 400px;
+    height: 80px;
+}
+
+    .overlayContent h2 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .overlayContent img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+.style1 {
+    height: 69px;
+}
+
+.style2 {
+    height: 69px;
+    width: 533px;
+}
